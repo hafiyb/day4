@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+h4{
+    font-size: 10px;
+    color: #97BB7D;
+}
+
+h5{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+p{
+    font-size: 8px;
+}
+
+#container{
+    width: 823px;
+    height: 4096px;
+    margin: 0 auto;
+    background-color: white;
+    background-image: url(landing2/images/hero-1-bg-shape-cover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 623px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header{
+    height: 400px;
+    /* background-color: blue; */
+}
+
+#logos{
+    height: 200px;
+    /* background-color: brown; */
+}
+
+#packages{
+    height: 500px;
+    /* background-color: yellow; */
+}
+
+#popular{
+    height: 415px;
+    /* background-color: violet; */
+}
+
+#queries{
+    height: 650px;
+    width: 100%;
+    padding: 0 100px;
+    background-color: #eef8ed;
+}
+
+#advice{
+    height: 800px;
+    /* background-color: yellow; */
+}
+
+#testimonials{
+    height: 600px;
+    /* background-color: green; */
+}
+
+#newsletter{
+    height: 250px;
+    /* background-color: blue; */
+}
+
+#footer{
+    height: 150x;
+    margin-top: 30px;
+    /* background-color: red; */
+}
+
+#footer2{
+    height: 40px;
+    width: 823px;
+    padding: 0 100px;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+
+.justifycenter{
+    justify-content: center;
+}
+
+.justifyspace{
+    justify-content: space-between;
+}
+
+.justifyaround{
+    justify-content: space-around;
+}
+
+.aligncenter{
+    align-items: center;
+}
+
+.button{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 8px;
+    border: 2px solid #97BB7D ;
+}
+
+.card{
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.shortline{
+    background-color: black;
+    width: 30px !important;
+    height: 2px !important;
+    margin: 15px 0 !important;
+}
+
+nav div{
+    padding: 0;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+nav ul li{
+    margin: 0 8px;
+    font-size: 8px;
+}
+
+#nav-right{
+    margin-left: 100px;
+    width: 200px;
+}
+
+nav i{
+    margin-left: 10px;
+}
+
+nav p{
+    color: #97BB7D;
+}
+
+#button-join-us{
+    padding: 0 15px;
+    background-color: #97BB7D;
+    color: white;
+    margin: 0 25px;
+}
+
+#header h1{
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 35px;
+}
+
+#header h2{
+    margin: 0 0 25px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+#header .button{
+    padding: 0 25px;
+    margin: 0 3px;
+}
+
+#header-button1{
+    background-color: #97BB7D;
+    color: white;
+}
+
+#header-button2{
+    background-color: white;
+    color: #97BB7D;
+}
+
+#logos div{
+    width: 70px;
+    height: 70px;
+    margin: 0 15px;
+    /* background-color: green; */
+}
+
+#logos-img1{
+    background-image: url(landing2/images/Vector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logos-img2{
+    background-image: url(landing2/images/Vector-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logos-img3{
+    background-image: url(landing2/images/Vector-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logos-img4{
+    background-image: url(landing2/images/Vector-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logos-img5{
+    background-image: url(landing2/images/Vector-4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logos-img6{
+    background-image: url(landing2/images/Vector-5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#packages div{
+    margin: 25px 0;
+}
+
+#packages div div{
+    width: 140px;
+    height: 170px;
+    margin: 0 10px;
+}
+
+#packages div div div{
+    height: 50px;
+    width: 50px;
+}
+
+#packages .card{
+    padding: 15px;
+}
+
+#packages h5{
+    margin: 15px 0 0 0 ;
+}
+
+#pkgimg1{
+    background-image: url(landing2/images/icon\ cool-icon-l20.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pkgimg2{
+    background-image: url(landing2/images/icon\ cool-icon-l23.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pkgimg3{
+    background-image: url(landing2/images/icon\ cool-icon-l29.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pkgimg4{
+    background-image: url(landing2/images/icon\ cool-icon-l26.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#orangecard{
+    background-color: #97BB7D;
+    color: white;
+}
+
+#orangecard .shortline{
+    background-color: white;
+}
+
+#popular .pop{
+    width: 300px;
+    height: 300px;
+    padding: 15px 50px;
+}
+
+.line{
+    width: 50px;
+    height: 5px;
+    background-color: #e85050;
+}
+
+#popular-image{
+    background-image: url(landing2/images/thumb-concept-6.png); 
+    background-size: cover;   
+}
+
+#popular h4{
+    margin: 15px 0;
+}
+
+#popular i{
+    color: #97BB7D;
+}
+
+#queries .quebox{
+    margin: 20px 0;
+}
+
+#queries .card{
+    width: 140px;
+    height: 380px;
+    margin: 0 5px;
+}
+
+.icon-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px 5px;
+}
+
+.card-bottom{
+    padding: 15px 5px 15px 6px;
+}
+
+.que-card-rating{
+    height: 20px;
+}
+
+.que-card-star{
+    width: 30px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #2d4059;
+    font-size: 8px;
+    color: white;
+}
+
+.que-card-star i{
+    height: 8px;
+    width: 8px;
+    color: #eec036;
+}
+
+.quebox h5{
+    margin: 0 0 10px 0; 
+}
+
+.quebox h4{
+    margin: 0 5px 10px 0;
+}
+
+.quebox p{
+    margin: 0 0 10px 0; 
+}
+
+.queimg .button{
+    width: 30px;
+    height: 15px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+    border: 0;
+}
+
+.queicons{
+    vertical-align: bottom;
+}
+
+.queicons i{
+    color: #97BB7D;
+    margin: 0 0 10px 0; 
+    transform: scale(0.7);
+}
+
+.queprice{
+    margin: 0 0 10px 0; 
+}
+
+.price-before{
+    color: #cecece;
+}
+
+.card-bottom .button{
+    width: 100px;
+    border-radius: 15px;
+    padding: 5px;
+    color: #97BB7D;
+}
+
+#queimg1{
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(landing2/images/product-cover-133\ sec-.png);
+}
+#queimg2{
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(landing2/images/product-cover-131.png);
+}
+#queimg3{
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(landing2/images/product-cover-130\ sec-.png);
+}
+#queimg4{
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(landing2/images/product-cover-132\ sec-.png);
+}
+
+#advice .card{
+    padding: 20px;
+    width: 190px;
+    height: 510px;
+    margin: 50px 5px 0 5px;
+}
+
+.heart-icon{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #97BB7D;
+    color: white;
+}
+
+.heart-icon i{
+    transform: scale(1.5);
+}
+
+#advice .price h1{
+    color: #97BB7D;
+}
+
+#advice .price p{
+    color: #cecece;
+}
+
+#advice .button{
+    background-color: #97BB7D;
+    color: white;
+}
+
+#advice .checkicon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #97BB7D;
+    color: white;
+    margin: 0 15px 0 0;
+}
+
+#advice .checkicongray{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #cecece;
+    color: white;
+    margin: 0 15px 0 0;
+}
+
+.check p{
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.checkicon i, .checkicongray i{
+    transform: scale(0.7);
+}
+
+#midcard{
+    position: relative;
+}
+
+#newicon{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #e67c40;
+    z-index: 2;
+    position: absolute;
+    top: -25px;
+    left: 150px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 17px 0 0 0;
+}
+
+.testicardcontainer{
+    margin: 20px 0;
+}
+
+.testicard{
+    width: 250px;
+    height: 250px;
+    margin: 0 10px;
+    padding: 35px;
+}
+
+.testicard p{
+    text-align: center;
+}
+
+.testicard i{
+    color: #eec036;
+    transform: scale(0.7);
+}
+
+#testimg1{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url(landing2/images/testimonial-user-cover-1.png);
+    background-size: contain;
+    overflow: hidden;
+}
+#testimg2{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url(landing2/images/testimonial-user-cover-2.png);
+    background-size: contain;
+    overflow: hidden;
+}
+
+#newstext{
+    text-align: center;
+    margin: 10px 0;
+}
+
+#input1{
+    margin: 40px 0;
+    height: 30px;
+    width: 330px;
+    background-color: #f9f9f9;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 15px;
+    color: #cecece;
+    border-radius: 2px;
+}
+
+#input2{
+    height: 30px;
+    width: 70px;
+    background-color: #97BB7D;
+    color: white;
+    font-size: 10px;
+    border-radius: 2px;
+}
+
+#footer div ul li{
+    font-size: 10px;
+    margin: 5px 0;
+}
+
+#footer div ul{
+    list-style-type: none;
+}
+
+.bold{
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#footer-right{
+    width: 250px;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+}
+
+#footer-right i{
+    color: #97BB7D;
+    margin: 0 5px;
+}
+
+.footer-left{
+    width: 100px;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+}
+
+#footer2 h4{
+    color: black;
+}
+
+#footer2 i{
+    margin: 0 5px;
+    color: #97BB7D;
+}
+
